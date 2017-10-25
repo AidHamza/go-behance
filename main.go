@@ -45,7 +45,7 @@ func main() {
 	var err error
 	var resultFinal ProjectResult
 
-	clientId := "rqQdUDlQsZwTQEbjyoulvofvSoH6aBwF"
+	clientId := ""
 
 	response, err = Client.Get(BEHANCE_API + ENDPOINT_PROJECTS + "?api_key=" + clientId)
 	defer func() {
